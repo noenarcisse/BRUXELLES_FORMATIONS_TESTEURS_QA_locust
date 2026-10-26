@@ -1,0 +1,9 @@
+[project]
+name = "bruxelles-formations-testeurs-qa-locust"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "locust>=2.34.0",
+]
