@@ -1,0 +1,5 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+GET,/api/events?city=[random_city],CatchResponseError('No events found for the city Atlantis'),5,2026-10-26T14:16:08Z,2026-10-26T14:16:25Z
+GET,/api/events/[id],"CatchResponseError(""Y'a pas de categories ici, c'est un array vide mon gars"")",28,2026-10-26T14:16:09Z,2026-10-26T14:16:32Z
+GET,/api/events?q=[random_event],CatchResponseError('No events found for the search les schtroumpfs'),7,2026-10-26T14:16:14Z,2026-10-26T14:16:27Z
+GET,/api/events/[id],CatchResponseError('HTTP code : 404'),11,2026-10-26T14:16:13Z,2026-10-26T14:16:29Z
